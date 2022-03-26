@@ -1,0 +1,84 @@
+{
+	"id": "e305cbdc-e813-4f62-b90a-eaeb4e6c4ec0",
+	"name": "Git",
+	"timestamp": "2022-03-26T12:57:18.134Z",
+	"collection_id": "20065776-419a7ef9-088d-4307-9a8a-035b93090860",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "7fe14d38-ed3b-41e2-bbeb-def11707f58b",
+			"name": "Account",
+			"url": "https://api.github.com/users/Mbolu2",
+			"time": 843,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				843
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "57c5ee70-af16-4cea-a02f-692670433d42",
+			"name": "Public profile",
+			"url": "https://github.com/Mbolu2/Mbolu2?=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",
+			"time": 971,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				971
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "993f55e3-d134-49a5-ba87-97b7f20a7b16",
+			"name": "Repositories",
+			"url": "https://github.com/settings/admin",
+			"time": 347,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				347
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2161,
+	"collection": {
+		"requests": [
+			{
+				"id": "7fe14d38-ed3b-41e2-bbeb-def11707f58b",
+				"method": "GET"
+			},
+			{
+				"id": "57c5ee70-af16-4cea-a02f-692670433d42",
+				"method": "GET"
+			},
+			{
+				"id": "993f55e3-d134-49a5-ba87-97b7f20a7b16",
+				"method": "GET"
+			}
+		]
+	}
+}
